@@ -71,6 +71,28 @@ The Web Security Scanner project is designed to provide in-depth insights into t
 
 ## Usage
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/yourusername/web-security-scanner.git
+## Clone the Repository
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/web-scanning-app.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd web-scanning-app
+    ```
+
+## Running the Server
+1. Open a terminal and navigate to the project directory.
+2. Run the server script:
+    ```sh
+    python server.py
+    ```
+
+## Running the Client
+1. Open a terminal and navigate to the project directory.
+2. Run the client script:
+    ```sh
+    python client.py
+    ```
+3. Enter the URL when prompted. The client will send the URL to the server and display the server's response.
+
